@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: grid;
+    grid-template-rows: 10fr 85fr 5fr ;
+}
+
+header{
+    font: bold 5vh/10vh arial;
+    text-align: center;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+footer{
+    font: bold 2vh/5vh arial;
+    text-align: center;
+    background-color: forestgreen;
+}
+
+.map{
+    background-color: fuchsia;
+}
+
+.info{
+    background-color: gold;
+
+}
